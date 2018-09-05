@@ -101,7 +101,7 @@ public final class GitLabSCMIcons {
 
     private static String groupAvatarUrl(GitlabProject project, String connectionName) throws GitLabAPIException {
         GitlabNamespace namespace = project.getNamespace();
-        if (namespace.getOwnerId() != null) {
+        if (namespace.getParentId() != null) {
             return null;
         }
 
