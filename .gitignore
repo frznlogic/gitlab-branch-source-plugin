@@ -8,3 +8,4 @@ work/
 *.iml
 *.patch
 /src/main/webapp
+*.swp
